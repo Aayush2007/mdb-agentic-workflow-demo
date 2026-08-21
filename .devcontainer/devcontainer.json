@@ -12,6 +12,21 @@
         "GitHub.copilot-chat",
         "ritwickdey.LiveServer"
       ]
+    },
+    "codespaces": {
+      "repositories": {
+        "Aayush2007/mdb-agentic-workflow-demo": {
+          "permissions": {
+            "actions": "write",
+            "checks": "write",
+            "contents": "write",
+            "discussions": "write",
+            "issues": "write",
+            "pull_requests": "write",
+            "workflows": "write"
+          }
+        }
+      }
     }
   }
 }
