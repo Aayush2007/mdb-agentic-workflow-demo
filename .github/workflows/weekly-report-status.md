@@ -9,12 +9,11 @@ permissions:
   issues: read
   pull-requests: read
   copilot-requests: write
-agent:
-  engine: copilot
-  tools:
-    github:
-      mode: gh-proxy
-      toolsets: [default]
+engine: copilot
+tools:
+  github:
+    mode: gh-proxy
+    toolsets: [default]
 safe-outputs:
   create-issue:
     title-prefix: '[weekly-report] '
